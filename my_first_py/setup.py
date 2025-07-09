@@ -25,6 +25,12 @@ setup(
             "robot_news_subscriber = my_first_py.my_first_subscriber:main",
             "add_two_ints_server = my_first_py.my_first_service:main",
             "add_two_ints_client = my_first_py.my_first_client:main",
+            "hardware_status_publisher = my_first_py.HardwareStatusPublisher:main",
+            "hardware_status_subscriber = my_first_py.HardwareStatusSubscriber:main",
+            "compute_rectangle_area_server = my_first_py.ComputeRectangleAreaServer:main",
+            "compute_rectangle_area_client = my_first_py.ComputeRectangleAreaClient:main",
+            "led_panel_node = my_first_py.led_panel_node:main",
+            "battery_client_node = my_first_py.battery_client:main",
         ],
     },
 
