@@ -1,0 +1,24 @@
+<launch>
+    <node pkg="my_first_py" exec="robot_news_station" namespace="robot_1">
+        <remap from="/robot_1/robot_news_msg" to="/robot_news_msg"/>
+        <param from="$(find-pkg-share my_robot_bringup)/config/robot_news_station_names.yaml" />
+    </node>
+    <node pkg="my_first_py" exec="robot_news_station"  namespace="robot_2">
+        <remap from="/robot_2/robot_news_msg" to="/robot_news_msg"/>
+        <param from="$(find-pkg-share my_robot_bringup)/config/robot_news_station_names.yaml" />
+    </node>
+    <node pkg="my_first_py" exec="robot_news_station"  namespace="robot_3">
+        <remap from="/robot_3/robot_news_msg" to="/robot_news_msg"/>
+        <param from="$(find-pkg-share my_robot_bringup)/config/robot_news_station_names.yaml" />
+    </node>
+    <node pkg="my_first_py" exec="robot_news_station"  namespace="robot_4">
+        <remap from="/robot_4/robot_news_msg" to="/robot_news_msg"/>
+        <param from="$(find-pkg-share my_robot_bringup)/config/robot_news_station_names.yaml" />
+    </node>
+    <node pkg="my_first_py" exec="robot_news_station"  namespace="robot_5">
+        <remap from="/robot_5/robot_news_msg" to="/robot_news_msg"/>
+        <param from="$(find-pkg-share my_robot_bringup)/config/robot_news_station_names.yaml" />
+    </node>
+    <node pkg="my_first_py" exec="robot_news_subscriber" name="smartphone">
+    </node>
+</launch>

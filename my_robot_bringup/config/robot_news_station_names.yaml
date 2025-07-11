@@ -1,0 +1,15 @@
+/robot_1/robot_news_station:
+  ros__parameters:
+    sister_name: robot1_sister
+/robot_2/robot_news_station:
+  ros__parameters:
+    sister_name: robot2_sister
+/robot_3/robot_news_station:
+  ros__parameters:
+    sister_name: robot3_sister
+/robot_4/robot_news_station:
+  ros__parameters:
+    sister_name: robot4_sister
+/robot_5/robot_news_station:
+  ros__parameters:
+    sister_name: robot5_sister
